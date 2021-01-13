@@ -3,7 +3,7 @@ class ActorsView extends React.Component {
       super(props)
   
       this.state = {
-        lalaSomthing: 0
+        colorindex: 0
       };
     }
   
@@ -17,9 +17,9 @@ class ActorsView extends React.Component {
       }
       
       return (
-        <div>
-            <p>Actors</p>
-         
+        <div class="card" style="width: 18rem;">
+           <img class="card-img-top" src={this.props.img} alt="Card image cap"></img>
+
        </div>
       );
     }
