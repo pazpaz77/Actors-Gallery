@@ -22,7 +22,7 @@ class ActorsView extends React.Component {
             <Card.Img variant="center" src={this.props.actors[i]['imageurl']} />
             <Card.Title>First Name : {this.props.actors[i].fname}<br />
                        Last Name : {this.props.actors[i].lname}<br />
-                       Age : {this.props.actors[i].getBirthday()} <br />
+                       Age : {this.props.actors[i].age} <br />
                        IMDB LINK : <a href={this.props.actors[i].IMDBlink}> PRESS </a>
             </Card.Title>
             </Card>

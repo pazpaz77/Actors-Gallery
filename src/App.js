@@ -12,6 +12,7 @@ function App() {
   const actorData = [];
 
   actorData.push(new ActorModel("Mimi", "jjis", 1984, "https://m.media-amazon.com/images/M/MV5BMzlkODQ0ODMtYmQ5NS00MWZhLTlkMjAtYTMwYzg5MjNkNmFmXkEyXkFqcGdeQXVyMjUwNzgxNjk@._V1_UY317_CR22,0,214,317_AL_.jpg", "https://www.imdb.com/name/nm0951420/?ref_=nm_mv_close", "50"));
+  actorData.push(new ActorModel("Lala", "popo", 1975, "https://m.media-amazon.com/images/M/MV5BMzlkODQ0ODMtYmQ5NS00MWZhLTlkMjAtYTMwYzg5MjNkNmFmXkEyXkFqcGdeQXVyMjUwNzgxNjk@._V1_UY317_CR22,0,214,317_AL_.jpg", "https://www.imdb.com/name/nm0951420/?ref_=nm_mv_close", "50"));
 
   console.log(actorData)
   
