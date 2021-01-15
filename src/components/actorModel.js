@@ -1,9 +1,17 @@
-class actorModel {
-    constructor(fname, lname, birthday, image, IMDBlink, age){
+import logo from './logo.svg';
+import './App.css';
+
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+
+
+
+class ActorModel {
+    constructor(fname, lname, birthday, imageurl, IMDBlink, age){
         this.fname = fname;
         this.lname = lname;
         this.birthday = birthday;
-        this.image = image;
+        this.imageurl = imageurl;
         this.IMDBlink = IMDBlink;
         this.age = age;
 
@@ -14,4 +22,4 @@ class actorModel {
     }
 }
 
-export default actorModel;
+export default ActorModel;
